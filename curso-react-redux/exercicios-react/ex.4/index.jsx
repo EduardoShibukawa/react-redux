@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import SaciFamily from './saciFamily'
+import { Primeiro, Segundo } from './component'
 
 ReactDOM.render(
-    <SaciFamily />
+    <div>
+        <Primeiro />
+        <Segundo />    
+    </div>
     , document.getElementById('app'))
