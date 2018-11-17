@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom'
 import Family from './family'
 import Member from './member'
 
-ReactDOM.render(        
-    <Family>            
-        <Member name='João' lastName='Saci'/>
-        <Member name='Maria' lastName='Saci'/>
-        <Member name='Jose' lastName='Saci'/>
-        <Member name='Pedro' lastName='Saci'/>    
+ReactDOM.render(            
+    <Family lastName='Saci'> 
+        <Member name='João'/>
+        {/* <Member name='Maria'/>
+        <Member name='Jose'/>
+        <Member name='Pedro'/>     */}
     </Family>
     , document.getElementById('app'))
