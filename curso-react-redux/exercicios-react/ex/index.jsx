@@ -6,8 +6,8 @@ import Member from './member'
 ReactDOM.render(            
     <Family lastName='Saci'> 
         <Member name='João'/>
-        {/* <Member name='Maria'/>
+        <Member name='Maria'/>
         <Member name='Jose'/>
-        <Member name='Pedro'/>     */}
+        <Member name='Pedro'/>    
     </Family>
     , document.getElementById('app'))
